@@ -51,7 +51,7 @@ gem 'pact-mock_service', '~> 0.7.0'
 
   1. Add `pact-consumer-js-dsl` to your project by running `bower install pact-consumer-js-dsl --save-dev`.
 
-  1. Tell Karma about `pact-consumer-js-dsl.js` in `karma.conf.js`. In the `files: []` section add a new entry for `bower_components/pact-consumer-js-dsl/dist/web/pact-consumer-js-dsl.js`.
+  1. Tell Karma about `pact-consumer-js-dsl.js` in `karma.conf.js`. In the `files: []` section add a new entry for `bower_components/pact-consumer-js-dsl/dist/pact-consumer-js-dsl.js`.
 
   1. Allow tests to load resources from `pact` mock server. One way to do this is in the `karma.conf.js`, change `browsers: ['Chrome'],` or `browsers: ['PhantomJS'],` to,
 
